@@ -5,45 +5,162 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pre-Entrega</title>
-    <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../js/script.js">
     <link rel="shortcut icon" href="../pageicon.ico">
+    <link rel="stylesheet" href="../js/script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate-css/master/animate.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="../css/estilos.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css"> 
+    <link rel="stylesheet" href="../css/hover.css">
 </head>
-<body>
+
+<body class="container-fluid .col">
     
-    <header>
-        <div class="bg-2">
-            <h1 class="t-stroke-shadow">ONLY GAMING</h1>
-       </div>
+    <header class=".row">
+        <section class="encabezado container-fluid">
+        <div class="logopagina p-2 bd-highlight animate__animated animate__pulse animate__infinite">
+            <img src="../Galeria/logopagina.png" class="rounded-circle" alt="LogoDePagina">
+            </div>
+            <div class="bg-5 align-self-center">
+                <h1 class="encabezado_titulo animated-shadow">ONLY GAMING</h1>
+          </div>    
+       </section>
+       <section>
+       <nav class="navbar navbar-expand-lg navbar-light colornav">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/Juegos.html">JUEGOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">COMPONENTES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/Perifericos.html">PERIFERICOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/Galeria.html">GALERIA</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </header>
 
+      <main>
+        <div class="Titulo_componentes">
+            <H1 class="t-stroke-shadow">COMPONENTES</H1>
+        </div> 
+         <div class="card mb-3 bg-transparent" style="width: 1140px;">
+                <div class="">
+                    <H1 class="t-stroke-shadow">PLACA MADRE</H1>
+                </div> 
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../Galeria/placa-madre.jpg" class="img-card img-fluid rounded-start"  alt="ImagenPlacaMadre">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body bg-white">
+                      <h2 class="card-title">¿Qué es la placa madre?</h2>
+                      <p class="Parrafo_Componentes">En computación, la placa madre, placa principal, placa base o tarjeta madre (del inglés: motherboard) es la tarjeta de circuito integrado principal del sistema informático, a la que se acoplan los demás componentes que constituyen el computador.</p>
+                      <p class="Parrafo_Componentes">Es, por ende, una parte fundamental del mismo y se encuentra dentro de la carcasa del CPU, en donde presenta salidas al exterior que permiten la conexión de distintos periféricos y aditamentos.
+                        En la placa base se encuentran además elementos indispensables del sistema, como el microprocesador, la memoria RAM, las ranuras de expansión o el circuito integrado auxiliar (chipset). En su interior, igualmente, se halla instalado el firmware del BIOS, software de sistema que permite regular y probar las funciones elementales del hardware y hace las veces de soporte para la carga del sistema operativo.
+                      </p>
+                      <p class="Parrafo_Componentes">Las tarjetas madre se fabrican en base a dimensiones estándar, conocidas como formatos, para garantizar que quepan dentro de los cascarones del CPU. Dichos formatos han cambiado con el tiempo y las nuevas tecnologías.
+                        Los formatos usados en la actualidad son: Micro-ATX, Mini-ATX y ATX
+                      </p>
+                      <p class="Parrafo_Componentes">Existen diversos tipos de placas base, aunque el mercado parece agruparse en torno a todos tendencias: las placas que emplean microprocesadores AMD (Advanced Micro Devices Inc.), o las que emplean microprocesadores Intel (Intel Corporation). Existen también placas multiprocesador, que pueden albergar 2, 4 o más procesadores de manera simultánea, lo cual se traduce en una enorme potencia de procesamiento de datos.</p>
 
-    <section class="Enlaces_Encabezado">
-        <nav>
-            <nav>
-                <ul class="menu-horizontal">
-                    <li><a href="../index.html"> Inicio </a></li>
-                    <li><a href="../Paginas/Juegos.html">Juegos</a></li>
-                    <li>
-                        <a href="#">Componentes</a>
-                        <ul class="menu-vertical">
-                            <li><a href="#">Placas de Video</a></li>
-                            <li><a href="#">Procesadores</a></li>
-                            <li><a href="#">Memorias RAM</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="../Paginas/Perifericos.html">Perifericos</a>
-                        <ul class="menu-vertical">
-                            <li><a href="#">Teclados</a></li>
-                            <li><a href="#">Mouses</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="../Paginas/Galeria.html">Galeria</a></li>
-                </ul>
-            </nav>
-        </nav>
-    </section>
-    </header>
+                    </div>
+            
+                </div>
+              </div>
+            </div>
+            </div>
+                      
+                      
+                     <div class="card mb-3 bg-transparent" style="width: 1140px;">
+                            <div class="">
+                                <H1 class="t-stroke-shadow">PROCESADOR</H1>
+                            </div> 
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="../Galeria/procesador-intel-core.jpg" class="img-card img-fluid rounded-start"  alt="ImagenProcesador">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body bg-white">
+                                  <h2 class="card-title">¿Qué es un procesador?</h2>
+                                  <p class="Parrafo_Componentes">Antes de nada, vamos a definir exactamente lo que es una CPU o un procesador. Como bien indican sus siglas en inglés (Central Processing Unit) es la unidad de procesamiento encargada de interpretar las instrucciones de un hardware haciendo uso de distintas operaciones aritméticas y matemáticas.</p>
+                                  <p class="Parrafo_Componentes">Para que lo entendáis, son como el cerebro de un ordenador, capaces de leer e interpretar las señales que les manda el usuario a través de los distintos componentes y resto de aplicaciones. Todo ello en cuestión de nanosegundos y en código binario. También se encarga de generar información de salida en formato de vídeo a través de una pantalla o un monitor.
+                                  </p>                                                                  
+                                  
+                                </div>
+            
+                            </div>
+                          </div>
+                        </div>
+                        </div>           
+
+                        <div class="card mb-3 bg-transparent" style="width: 1140px;">
+                            <div class="">
+                                <H1 class="t-stroke-shadow">PLACA DE VIDEO</H1>
+                            </div> 
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="../Galeria/placa-de-video.jpg" class="img-card img-fluid rounded-start"  alt="ImagenProcesador">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body bg-white">
+                                  <h2 class="card-title">¿Qué es una Placa de Video?</h2>
+                                  <p class="Parrafo_Componentes">Se denomina placa de video al dispositivo de hardware que, en una computadora (ordenador), interviene en el procesamiento de los datos que proceden de la CPU y los convierte en información que puede representarse a través de un dispositivo de salida.</p>
+                                  <p class="Parrafo_Componentes">También conocida como tarjeta de video, tarjeta aceleradora de gráficos, adaptador de video o adaptador de pantalla, lo que hace la placa de video es recibir y procesar los datos que le envía la CPU. Esto le permite transformarlos en imágenes que manda a un monitor, un televisor u otro dispositivo de salida.</p>
+                                  <p class="Parrafo_Componentes">Hay que conocer que la placa de video, que también se la conoce como tarjeta gráfica en otros países del mundo, se encuentra compuesta de los siguientes elementos o componentes:</p>
+                                  <p class="Parrafo_Componentes">-La GPU, que es la unidad de procesamiento gráfico. Esta a su vez se encuentra conformada por los ROP y los sombreadores. Se trata de un procesador de gráficos y lo que hace es descargar de trabajo a la CPU.</p>
+                                  <p class="Parrafo_Componentes">-La RAMDAC, que es un convertidor. En concreto, tiene como misión llevar a cabo lo que es la conversión de señal digital a señal analógica de la llamada memoria RAM.</p>
+                                  <p class="Parrafo_Componentes">-La GRAM, que viene a ser la memoria gráfica de acceso aleatorio. Se encarga de almacenar y transportar la información.</p>
+                                  <p class="Parrafo_Componentes">-Las salidas son otros de los elementos más importantes de la mencionada placa de vídeo. Son las que se encargan de conectar la mencionada tarjeta de video con lo que es el monitor del ordenador. Entre las salidas más habituales están la HDMI, la VGA, el DisplayPort o el DVI.</p>
+
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>         
+
+                        <div class="card mb-3 bg-transparent" style="width: 1140px;">
+                            <div class="">
+                                <H1 class="t-stroke-shadow">MEMORIA RAM</H1>
+                            </div> 
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="../Galeria/memorias-ram.jpg" class="img-card img-fluid rounded-start"  alt="ImagenProcesador">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body bg-white">
+                                  <h2 class="card-title">¿Que es una Memoria RAM?</h2>
+                                  <p class="Parrafo_Componentes">En informática, la memoria RAM (acrónimo de Random Access Memory, o Memoria de Acceso Aleatorio) es un tipo de memoria operativa de los computadores y sistemas informáticos, adonde va a ejecutarse la mayor parte del software: el propio sistema operativo, el software de aplicación y otros programas semejantes.</p>
+                                  <p class="Parrafo_Componentes">Su nombre proviene del hecho de que puede grabarse o recuperarse información de ella sin necesidad de un orden secuencial (como sí ocurre en la memoria ROM o Read-Only Memory, Memoria de Sólo Lectura), sino que puede accederse al RAM de la manera más rápida posible, con un tiempo de espera igual para cualquier posición de memoria.</p>
+                                  <p class="Parrafo_Componentes">Este tipo de memoria no siempre se encuentra soldada a la placa madre (en las consolas de videojuegos, por ejemplo, sí lo está), sino que descansa en tarjetas de circuitos impresos retirables y sustituibles en la misma, conocidos como Módulos de RAM. Cada módulo posee un número de chips de memoria y una capacidad específica, medida actualmente en megabytes (1024 kilobytes) o gigabytes (1024 megabytes).</p>
+
+                                
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>      
+
+      </main>
     
     
     <footer class="classPie" id="PiedePagina">
@@ -56,5 +173,9 @@
         </nav>
 
     </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/wow.min.js"></script>
+            <script> new WOW().init();</script>
 </body>
 </html>

@@ -5,45 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pre-Entrega</title>
-    <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../js/script.js">
     <link rel="shortcut icon" href="../pageicon.ico">
+    <link rel="stylesheet" href="../js/script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate-css/master/animate.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="../css/estilos.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css"> 
+    <link rel="stylesheet" href="../css/hover.css">
 </head>
-<body>
-    <header>
-        
-        <div class="bg-2">
-            <h1 class="t-stroke-shadow">ONLY GAMING</h1>
-       </div>
-    
 
-    <section class="Enlaces_Encabezado">
-        <nav>
-            <nav>
-                <ul class="menu-horizontal">
-                    <li><a href="../index.html"> Inicio </a></li>
-                    <li><a href="../Paginas/Juegos.html">Juegos</a></li>
-                    <li>
-                        <a href="../Paginas/Componentes.html">Componentes</a>
-                        <ul class="menu-vertical">
-                            <li><a href="#">Placas de Video</a></li>
-                            <li><a href="#">Procesadores</a></li>
-                            <li><a href="#">Memorias RAM</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Perifericos</a>
-                        <ul class="menu-vertical">
-                            <li><a href="#">Teclados</a></li>
-                            <li><a href="#">Mouses</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="../Paginas/Galeria.html">Galeria</a></li>
-                </ul>
-            </nav>
-        </nav>
-    </section>
-    </header>
+<body class="container-fluid .col">
+
+    <header class=".row">
+        <section class="encabezado container-fluid">
+        <div class="logopagina p-2 bd-highlight animate__animated animate__pulse animate__infinite">
+            <img src="../Galeria/logopagina.png" class="rounded-circle" alt="LogoDePagina">
+            </div>
+            <div class="bg-5 align-self-center">
+                <h1 class="encabezado_titulo animated-shadow">ONLY GAMING</h1>
+          </div>   
+       </section>
+       <section>
+       <nav class="navbar navbar-expand-lg navbar-light colornav">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/Juegos.html">JUEGOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/Componentes.html">COMPONENTES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PERIFERICOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/Galeria.html">GALERIA</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </header>
+
+      <main>
+        <section class="container">
+           <div class="row">
+            <div class="card col-lg-6 align-self-top" style="width: 40rem;">
+            <div>
+                <H1 class="t-stroke-shadow">TECLADO MECANICO</H1>
+            </div> 
+            <img src="../Galeria/TECLADO-MECANICO.jpg" class="card-img-top" alt="ImagenTecladoMecanico">
+            <div class="card-body colornav">
+              <p class="card-text">Los teclados mecánicos son esos que tienen un interruptor independiente para cada tecla. Si quitas la tecla, verás que hay un único interruptor, de forma que si se estropea uno, sólo tienes que cambiar una pieza del teclado. Estos interruptores suelen ir unidos a una placa metálica, y debajo de ellas tienes la placa madre del teclado que registra cada una de tus pulsaciones.</p>
+            </div>
+          </div>
+        
+        
+        <div class="card col-lg-6" style="width: 40rem;">
+            <div>
+                <H1 class="t-stroke-shadow">TECLADO MEMBRANA</H1>
+            </div>
+            <img src="../Galeria/TECLADO-MEMBRANA.jpg" class="card-img-top" alt="ImagenTecladoMembrana">
+            <div class="card-body colornav">
+              <p class="card-text">El principal elemento responsable del manejo de la matriz clave en un dispositivo de este tipo es una membrana de tres láminas, cuyas láminas más externas tienen pistas de conducción. La capa media tiene muescas en los lugares donde se encuentran las llaves y es un aislante.
+             <br>
+             <br>
+            Cuando se pulsa la tecla, su vástago mueve la capa superior, expande la capa media y cierra los contactos de la capa inferior. El controlador reconoce el carácter que el usuario ha tecleado y envía el comando correspondiente al procesador central.</p>
+            </div>
+          </div>
+          </div>
+        </section>
+
+        <section class="container mt-5">
+            <div class="row">
+             <div class="card col-lg-6 align-self-top" style="width: 40rem;">
+             <div>
+                 <H1 class="t-stroke-shadow">MOUSE OPTICO</H1>
+             </div> 
+             <img src="../Galeria/mouse-optico.jpg" class="card-img-top" alt="ImagenMouseOptico">
+             <div class="card-body colornav">
+               <p class="card-text">Es un dispositivo apuntador que integra en su interior un LED (incluso hay algunos con tecnología láser), que emite luz de manera intermitente , y un receptor se encarga de enviar los cambios en la reflexión de luz en la superficie hacia un circuito  integrado que los interpreta como movimientos en todas direcciones, y finalmente estos datos por medio de un cable hacia la computadora que los interpreta como posiciones en la pantalla por medio del puntero (flecha que se mueve en la pantalla al mover el ratón).</p>
+             </div>
+           </div>
+         
+         
+         <div class="card col-lg-6" style="width: 40rem;">
+             <div>
+                 <H1 class="t-stroke-shadow">MOUSE LASER</H1>
+             </div>
+             <img src="../Galeria/mouse-laser.jpg" class="card-img-top" alt="ImagenMouseLaser">
+             <div class="card-body colornav">
+               <p class="card-text">Actualmente, para un manejo mas eficiente del ratón por parte del usuario, el diodo emisor de luz (LED) que tiene integrado el ratón óptico ha sido reemplazado por un LED láser, adaptando su funcionamiento con esta tecnología, con lo cuál se tiene la característica de que el haz de luz que emite, no se difumina con la distancia, sino que se concentra en un punto y el reflejo es mas exacto, elevando la precisión del puntero en la pantalla de la computadora.</p>
+             </div>
+           </div>
+           </div>
+         </section>
+      </main>
 
     <footer class="classPie" id="PiedePagina">
         <p>Paginas Oficiales</p>
@@ -55,5 +124,9 @@
         </nav>
 
     </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/wow.min.js"></script>
+            <script> new WOW().init();</script>
 </body>
 </html>
