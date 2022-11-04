@@ -6,7 +6,7 @@
 
  
  .animated-shadow {
-   color: #ffffff77;
+   color: $colorTres;
    font: normal 80px Varela Round, sans-serif;
    height: 30fr;
    left: 0;
@@ -100,7 +100,7 @@
     display: flex;
     justify-content: left;
     text-align: center;
-    color: #3d3d3d;
+    color: $colorCuatro;
     text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
 }
 
@@ -129,22 +129,22 @@ body{
 
 .parrafo{
     
-    color: white;
+    color: $colorBlanco;
     font-family: 'Times New Roman', Times, serif;
 
 }
 
 .Noticia{
     
-    color: beige;
+    color: $colorBeige;
     font-family: 'Times New Roman', Times, serif;
     
 }
 
 
 table{
-    color: white;
-    background-color: brown;
+    color: $colorBlanco;
+    background-color: $colorMarron;
     border-collapse:collapse;
     width: 100%;
     text-align: left;
@@ -153,7 +153,7 @@ table{
 }
 
 .Formulario__Voto{
-    color: white;
+    color: $colorBlanco;
 }
 
 caption, td{
@@ -162,8 +162,9 @@ caption, td{
 }
 
 .classPie{
+    
     text-align: center;
-    color: white;
+    color: $colorBlanco;
 }
 
 .VideoGaleria{
@@ -186,6 +187,7 @@ caption, td{
     overflow:hidden;
 }
 
+
 .Galeria img:hover{
     -webkit-transform:scale(1.2);transform:scale(1.2);
     box-shadow: 0px 0px 5px 5px #1b4d20;
@@ -201,12 +203,12 @@ caption, td{
 }
 
 .Titulo_juegos{
-    display: flex;
-    justify-content: center;
+
+    @include titulo;
 }
 .Titulo_componentes{
-    display: flex;
-    justify-content: center;
+
+    @include titulo;
 }
 
 
@@ -239,7 +241,7 @@ caption, td{
 height: 100%;
 }    
 .colornav{
-    background-color: rgb(97, 97, 97);
+    background-color: $colorGris;
 }
 @media screen and (max-width: 768px) {
     .logopagina{
@@ -262,14 +264,17 @@ height: 100%;
             
         }
         .card-img-top{
+            display: flex;
             height: 350px;
             object-fit: cover;
         }
         .card-body{
+            display: flex;
             margin: auto;
         height: 90%;
         width: 100%;
         }
+        
 }
     
 

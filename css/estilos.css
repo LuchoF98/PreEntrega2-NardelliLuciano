@@ -17,15 +17,50 @@
 
 @keyframes move {
   0% {
-    text-shadow: 4px -4px 0 #da0641, 3px -3px 0 #da0641, 2px -2px 0 #da0641, 1px -1px 0 #da0641, -4px 4px 0 #13f1fc, -3px 3px 0 #13f1fc, -2px 2px 0 #13f1fc, -1px 1px 0 #13f1fc; }
+    text-shadow: 4px -4px 0 #da0641,
+ 3px -3px 0 #da0641,
+ 2px -2px 0 #da0641,
+ 1px -1px 0 #da0641,
+ -4px 4px 0 #13f1fc,
+ -3px 3px 0 #13f1fc,
+ -2px 2px 0 #13f1fc,
+ -1px 1px 0 #13f1fc; }
   25% {
-    text-shadow: -4px -4px 0 #13f1fc, -3px -3px 0 #13f1fc, -2px -2px 0 #13f1fc, -1px -1px 0 #13f1fc, 4px 4px 0 #da0641, 3px 3px 0 #da0641, 2px 2px 0 #da0641, 1px 1px 0 #da0641; }
+    text-shadow: -4px -4px 0 #13f1fc,
+ -3px -3px 0 #13f1fc,
+ -2px -2px 0 #13f1fc,
+ -1px -1px 0 #13f1fc,
+ 4px 4px 0 #da0641,
+ 3px 3px 0 #da0641,
+ 2px 2px 0 #da0641,
+ 1px 1px 0 #da0641; }
   50% {
-    text-shadow: -4px 4px 0 #da0641, -3px 3px 0 #da0641, -2px 2px 0 #da0641, -1px 1px 0 #da0641, 4px -4px 0 #13f1fc, 3px -3px 0 #13f1fc, 2px -2px 0 #13f1fc, 1px -1px 0 #13f1fc; }
+    text-shadow: -4px 4px 0 #da0641,
+ -3px 3px 0 #da0641,
+ -2px 2px 0 #da0641,
+ -1px 1px 0 #da0641,
+ 4px -4px 0 #13f1fc,
+ 3px -3px 0 #13f1fc,
+ 2px -2px 0 #13f1fc,
+ 1px -1px 0 #13f1fc; }
   75% {
-    text-shadow: 4px 4px 0 #13f1fc, 3px 3px 0 #13f1fc, 2px 2px 0 #13f1fc, 1px 1px 0 #13f1fc, -4px -4px 0 #da0641, -3px -3px 0 #da0641, -2px -2px 0 #da0641, -1px -1px 0 #da0641; }
+    text-shadow: 4px 4px 0 #13f1fc,
+ 3px 3px 0 #13f1fc,
+ 2px 2px 0 #13f1fc,
+ 1px 1px 0 #13f1fc,
+ -4px -4px 0 #da0641,
+ -3px -3px 0 #da0641,
+ -2px -2px 0 #da0641,
+ -1px -1px 0 #da0641; }
   100% {
-    text-shadow: 4px -4px 0 #da0641, 3px -3px 0 #da0641, 2px -2px 0 #da0641, 1px -1px 0 #da0641, -4px 4px 0 #13f1fc, -3px 3px 0 #13f1fc, -2px 2px 0 #13f1fc, -1px 1px 0 #13f1fc; } }
+    text-shadow: 4px -4px 0 #da0641,
+ 3px -3px 0 #da0641,
+ 2px -2px 0 #da0641,
+ 1px -1px 0 #da0641,
+ -4px 4px 0 #13f1fc,
+ -3px 3px 0 #13f1fc,
+ -2px 2px 0 #13f1fc,
+ -1px 1px 0 #13f1fc; } }
 
 .encabezado {
   display: flex;
@@ -168,9 +203,11 @@ caption, td {
     margin-left: 20px;
     margin-bottom: 0px; }
   .card-img-top {
+    display: flex;
     height: 350px;
     object-fit: cover; }
   .card-body {
+    display: flex;
     margin: auto;
     height: 90%;
     width: 100%; } }
